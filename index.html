@@ -1,189 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Astitva Awasthi - Full Stack Developer</title>
-    <style>
-        body {
-            margin: 0; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f9fafb;
-            color: #333;
-            line-height: 1.6;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            padding: 40px 20px 20px 20px;
-        }
-        header img {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
-            margin-bottom: 16px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.8rem;
-            color: #222;
-        }
-        header p {
-            font-size: 1.2rem;
-            margin: 5px 0 10px;
-            color: #555;
-        }
-        .social-links a {
-            margin: 0 10px;
-            font-weight: bold;
-        }
-        section {
-            margin: 40px 0;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        section:last-child {
-            border: none;
-        }
-        section h2 {
-            border-left: 5px solid #007acc;
-            padding-left: 10px;
-            margin-bottom: 20px;
-            color: #007acc;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        .skills-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-        .skills-list div {
-            background: #007acc;
-            color: white;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 0.9rem;
-        }
-        .item {
-            margin-bottom: 20px;
-        }
-        .item h3 {
-            margin: 0;
-            color: #222;
-        }
-        .item .date {
-            font-size: 0.9rem;
-            color: #777;
-        }
-        .item p {
-            margin: 10px 0 0 0;
-            white-space: pre-line;
-        }
-        .contact-info {
-            font-size: 1.1rem;
-            margin-top: 10px;
-        }
-        .contact-info span {
-            display: block;
-            margin: 6px 0;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Astitva Awasthi – Full Stack Developer</title>
+  <style>
+    /* Keeping your original styling here… */
+    body { margin:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:#f9fafb; color:#333; line-height:1.6; }
+    a { color:#007acc; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .container { max-width:900px; margin:auto; padding:20px; }
+    header { text-align:center; padding:40px 20px 20px; }
+    header img { width:140px; height:140px; border-radius:50%; box-shadow:0 3px 15px rgba(0,0,0,0.1); margin-bottom:16px; }
+    header h1 { margin:0; font-size:2.8rem; color:#222; }
+    header p { font-size:1.2rem; margin:5px 0 10px; color:#555; }
+    .social-links a { margin: 0 10px; font-weight:bold; }
+    section { margin:40px 0; padding-bottom:10px; border-bottom:1px solid #ddd; }
+    section:last-child { border:none; }
+    section h2 { border-left:5px solid #007acc; padding-left:10px; margin-bottom:20px; color:#007acc; }
+    .skills-list { display:flex; flex-wrap:wrap; gap:12px; }
+    .skills-list div { background:#007acc; color:white; padding:6px 12px; border-radius:20px; font-weight:600; font-size:0.9rem; }
+    .item { margin-bottom:20px; }
+    .item h3 { margin:0; color:#222; }
+    .item .date { font-size:0.9rem; color:#777; }
+    .item p { margin:10px 0 0; white-space:pre-line; }
+    .contact-info { font-size:1.1rem; margin-top:10px; }
+    .contact-info span { display:block; margin:6px 0; }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <img src="PIC.jpg" alt="Astitva Awasthi portrait" />
+      <h1>Astitva Awasthi</h1>
+      <p>Full Stack Software Developer</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/in/astitva-awasthi" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+        <a href="https://github.com/Astitva-Awasthi" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="mailto:astitvaa307@gmail.com">Email</a>
+      </div>
+    </header>
 
-    <div class="container">
-        <header>
-            <img src="PIC.jpg" alt="Astitva Awasthi portrait" />
-            <h1>Astitva Awasthi</h1>
-            <p>Full Stack Software Developer</p>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/astitva-awasthi" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
-                <a href="https://github.com/Astitva-Awasthi" target="_blank" rel="noopener noreferrer">GitHub</a> | 
-                <a href="mailto:astitvaa307@gmail.com">Email</a>
-            </div>
-        </header>
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <span>Email: <a href="mailto:astitvaa307@gmail.com">astitvaa307@gmail.com</a></span>
+        <span>Phone: 6388340465</span>
+        <span>LinkedIn: <a href="https://linkedin.com/in/astitva-awasthi" target="_blank">linkedin.com/in/astitva-awasthi</a></span>
+        <span>GitHub: <a href="https://github.com/Astitva-Awasthi" target="_blank">github.com/Astitva-Awasthi</a></span>
+      </div>
+    </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a passionate Full Stack Developer with expertise in building scalable microservices and dynamic web applications. Experienced in Java, Spring Boot, Angular, React, and modern cloud-based architectures. I thrive on solving complex problems and delivering efficient, clean code.</p>
-        </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="item">
+        <h3>Full Stack Developer-II, FedEx, Hyderabad</h3>
+        <span class="date">Dec 2023 – Present</span>
+        <p>• Developed high-cohesion, loosely coupled microservices using Java, Spring Boot, and Angular to support critical logistics operations.<br>
+           • Implemented OAuth 2.0-compliant API Gateway and Spring Security for SSO, role-based access, and token authentication.<br>
+           • Ensured data consistency and resilience with transaction management, idempotency patterns, and log tracing.<br>
+           • Integrated Workday APIs into CHIP to centralize HR data across internal and external sources.<br>
+           • Improved Oracle query performance via indexing, CTE refactoring, and partitioning strategies.<br>
+           • Created containerized ephemeral environments using Docker, Jenkins, and Wiremock—cutting non-prod infrastructure costs by 40%.<br>
+           • Migrated over 10 microservices to cloud-native architecture with CI/CD pipelines in Jenkins for automated testing and deployments.<br>
+           • Built RESTful APIs and Angular dashboards for HRMS, enabling real-time operational insights.<br>
+           • Implemented monitoring and tracing with Zipkin, Prometheus, and customized logs—reducing downtime by 25%.<br>
+           • Integrated Express, Ground, and Air services under One FedEx to enhance delivery data accuracy.<br>
+           • Leveraged GitHub Copilot and Mockito to boost unit/integration test coverage to 80%.</p>
+      </div>
+      <div class="item">
+        <h3>Software Development Engineer-I, CData Software, Bangalore</h3>
+        <span class="date">Feb 2022 – Nov 2023</span>
+        <p>• Designed scalable ETL connectors (FHIR, Square, Snowflake) in Java using multithreading for large datasets.<br>
+           • Applied OOP principles and design patterns (Factory, Strategy) to ensure modular and extensible code.<br>
+           • Refactored legacy UIs to React, improving UX and performance by over 40%.<br>
+           • Mentored juniors on core Java concepts (Collections, Enums, Generics), GC optimization, and thread safety.<br>
+           • Maintained high code quality via peer reviews, Git, Maven, and CI practices.</p>
+      </div>
+    </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-list">
-                <div>Java</div>
-                <div>Spring Boot</div>
-                <div>Angular</div>
-                <div>React</div>
-                <div>JavaScript</div>
-                <div>TypeScript</div>
-                <div>HTML</div>
-                <div>CSS</div>
-                <div>MySQL</div>
-                <div>PostgreSQL</div>
-                <div>Docker</div>
-                <div>AWS</div>
-            </div>
-        </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div>Java</div><div>Spring Boot</div><div>Angular</div><div>React</div>
+        <div>JavaScript</div><div>TypeScript</div><div>Python</div><div>HTML</div><div>CSS</div>
+        <div>REST APIs</div><div>Microservices</div><div>OAuth 2.0</div>
+        <div>Oracle / SQL</div><div>Docker</div><div>Jenkins (CI/CD)</div><div>Monitoring & Tracing</div>
+      </div>
+    </section>
 
-        <section id="experience">
-            <h2>Experience</h2>
-            <div class="item">
-                <h3>Full Stack Developer - Your Company Name</h3>
-                <span class="date">Jan 2023 - Present</span>
-                <p>• Developed and maintained full-stack applications using Java, Spring Boot, and Angular.<br>
-                   • Collaborated with cross-functional teams to deliver high-quality software.<br>
-                   • Implemented REST APIs and integrated third-party services.</p>
-            </div>
-            <div class="item">
-                <h3>Software Engineer Intern - Another Company</h3>
-                <span class="date">Jun 2022 - Dec 2022</span>
-                <p>• Assisted in building user-facing features with React.<br>
-                   • Wrote unit tests and performed code reviews.<br>
-                   • Optimized backend services for performance.</p>
-            </div>
-        </section>
+    <Certifications>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="item">
-                <h3>Portfolio Website</h3>
-                <p>Designed and developed a personal portfolio to showcase skills, projects, and contact details. Built using HTML, CSS, and JavaScript, hosted on GitHub Pages.</p>
-            </div>
-            <div class="item">
-                <h3>Other Project Name</h3>
-                <p>Brief description of another project you worked on, the tech stack used, and its outcomes.</p>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <span>Email: <a href="mailto:astitvaa307@gmail.com">astitvaa307@gmail.com</a></span>
-                <span>LinkedIn: <a href="https://linkedin.com/in/astitva-awasthi" target="_blank">linkedin.com/in/astitva-awasthi</a></span>
-                <span>GitHub: <a href="https://github.com/Astitva-Awasthi" target="_blank">github.com/Astitva-Awasthi</a></span>
-            </div>
-        </section>
-    </div>
-
+  </div>
 </body>
 </html>
